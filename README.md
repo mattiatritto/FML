@@ -1,3 +1,9 @@
 # Code used in the course _Foundation of Machine Learning_
 
-In this file I will specify all the changes made when I notice errors made in the provided codes.
+
+## Homework assegnati
+
+1. Regressione lineare mediante l'utilizzo delle formule matriciali
+2. Confusion matrix e metriche per la classificazione
+3. Pipeline per la regressione
+4. Codice per la SVM
