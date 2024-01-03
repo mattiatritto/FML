@@ -5,6 +5,7 @@
 - __FML_4__: Sklearn basics and pipelines definition
 - __FML_5__: Decision Trees and Random Forests
 - __FML_6__: Neural Networks from scratch (to review again)
+- __FML_7__: Neural Networks with PyTorch (there is a summary version with just the essentials to set up a NN)
 
 ## Homeworks
 
