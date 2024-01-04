@@ -130,7 +130,7 @@ preprocessor = ColumnTransformer(
 
 pipeline = Pipeline(steps=[
     ('preprocessor', preprocessor),
-    #('classifier', LogisticRegression(random_state=random_state, C=1, penalty='l2')) C and penalty are not useful.
+    #('classifier', FML_3(random_state=random_state, C=1, penalty='l2')) C and penalty are not useful.
     ('classifier', LogisticRegression(random_state=random_state))
 ])
 
