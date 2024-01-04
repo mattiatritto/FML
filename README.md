@@ -14,7 +14,7 @@
 
 - Linear Regression with normal equations (done)
 - Classification metrics from scratch (done)
-- Pipeline in the contest of regression
+- Pipeline in the contest of regression (done)
 - Include the grid search in the pipeline (done)
 - SVM classifier using the toy dataset diabetes.csv
 
