@@ -49,11 +49,6 @@ std = X_train.std(axis=0)
 X_train = (X_train - mean) / std
 X_test = (X_test - mean) / std
 
-mean = y_train.mean(axis=0)
-std = y_train.std(axis=0)
-y_train = (y_train - mean) / std
-y_test = (y_test - mean) / std
-
 
 
 # Add a bias column

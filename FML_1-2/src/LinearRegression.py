@@ -68,8 +68,8 @@ class LinearRegression:
                 error = preds - y_batch
                 self.theta = self.theta - (self.learning_rate * (1/batch_size) * np.dot(X_batch.T, error))
 
-                #cost_history_validation_phase.append(self.theta.T)
-                #theta_history_validation_phase.append(1/(2 * batch) * np.dot(error.T, error))
+                #cost_history_validation_phase.append(1/(2 * batch) * np.dot(error.T, error))
+                #theta_history_validation_phase.append(self.theta.T)
 
             theta_history[step, :] = self.theta.T
             global_error = self.predict(X) - y
