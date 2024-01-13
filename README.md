@@ -9,6 +9,7 @@
 - __FML_6__: Neural Networks from scratch (to review again)
 - __FML_7__: Neural Networks with PyTorch (there is a summary version with just the essentials to set up a NN)
 - __FML_8__: KMeans and KMedoids algorithms for clustering data
+- __FML_9__: Support Vector Machines classifier
 
 ## Homeworks
 
@@ -16,7 +17,7 @@
 - Classification metrics from scratch (done)
 - Pipeline in the contest of regression (done)
 - Include the grid search in the pipeline (done)
-- SVM classifier using the toy dataset diabetes.csv
+- SVM classifier using the toy dataset diabetes.csv (done)
 
 ## Errors
 
