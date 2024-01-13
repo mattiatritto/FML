@@ -12,9 +12,9 @@ class LogisticRegression:
         # Full Batch Gradient Descent
         # - Computes gradient using the entire training dataset at each iteration.
         # - Updates model parameters using the average error over the entire dataset.
-        # - Suitable for smaller datasets.
+        # - Suitable for smaller data.
         # - Generally more stable convergence compared to other methods.
-        # - Computational intensity may limit its use for large datasets.
+        # - Computational intensity may limit its use for large data.
         m = len(X)
         cost_history = np.zeros(self.n_steps)
         theta_history = np.zeros((self.n_steps, self.theta.shape[0]))
@@ -43,8 +43,8 @@ class LogisticRegression:
         # - Splits the training dataset into mini-batches and computes gradients using each mini-batch.
         # - Updates model parameters using the average error over each mini-batch.
         # - A compromise between full batch and stochastic gradient descent.
-        # - Suitable for moderate-sized datasets.
-        # - Enables parallelism and can be faster than full batch for large datasets.
+        # - Suitable for moderate-sized data.
+        # - Enables parallelism and can be faster than full batch for large data.
         m = len(X)
         cost_history = np.zeros(self.n_steps)
         theta_history = np.zeros((self.n_steps, self.theta.shape[0]))
@@ -74,7 +74,7 @@ class LogisticRegression:
         # Stochastic Gradient Descent
         # - Updates model parameters using a single randomly selected training example at each iteration.
         # - Fastest to converge but may have high variance in parameter updates.
-        # - Suitable for large datasets as it processes one data point at a time, saving memory.
+        # - Suitable for large data as it processes one data point at a time, saving memory.
         # - May require more iterations to converge and may exhibit oscillations during training.
         m = len(X)
         cost_history = np.zeros(self.n_steps)
