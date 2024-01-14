@@ -112,7 +112,7 @@ class RegressionNeuralNetwork:
 
 
 
-    def compute_cost(self, values, y):
+    def _compute_cost(self, values, y):
         """
         This method is used to compute the total cost.
         :param values: The entire history of values used to perform the forward propagation, useful to extract the predictions.
