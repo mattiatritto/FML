@@ -8,7 +8,6 @@ k = 5
 test_size = 1/5
 
 
-
 # Pre processing steps
 dataset = pd.read_csv("Wine.csv")
 dataset = dataset.values
